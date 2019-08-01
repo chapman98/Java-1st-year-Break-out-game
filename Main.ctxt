@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\r\n\ Start\ the\ game\r\n\ \ The\ call\ to\ startGame()\ in\ the\ model\ starts\ \r\n\ \ \ \ the\ actual\ play\ of\ the\ game\r\n\ \ Note\:\ Many\ issues\ of\ mutual\ exclusion\ on\ shared\ variables\r\n\ \ \ \ \ \ \ \ are\ ignored.\r\n\ @author\ Mike\ Smith\ University\ of\ Brighton\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

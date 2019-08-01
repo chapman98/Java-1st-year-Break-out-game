@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Timer
+comment0.text=\r\n\ Make\ getting\ the\ time\ of\ day\ easier\r\n\ @author\ Mike\ Smith\ University\ of\ Brighton\r\n
+comment1.params=
+comment1.target=void\ startTimer()
+comment1.text=\r\n\ Remember\ the\ current\ time\r\n
+comment2.params=
+comment2.target=long\ timeTaken()
+comment2.text=\r\n\ How\ long\ since\ the\ previous\ call\ to\ startTimer\ in\ milliseconds\r\n\ @return\ The\ time\ taken\ in\ milliseconds\r\n
+comment3.params=
+comment3.target=long\ getTimeInMills()
+comment3.text=\r\n\ Return\ time\ in\ milliseconds\ since\ the\ epoch\r\n\ @return\ time\ in\ milliseconds\r\n
+numComments=4

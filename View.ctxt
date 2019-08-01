@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=View
+comment0.text=\r\n\ Displays\ a\ graphical\ view\ of\ the\ game\ of\ breakout.\r\n\ \ Uses\ Graphics2D\ would\ need\ to\ be\ re-implemented\ for\ Android.\r\n\ @author\ Mike\ Smith\ University\ of\ Brighton\r\n
+comment1.params=width\ height
+comment1.target=View(int,\ int)
+comment1.text=\r\n\ Construct\ the\ view\ of\ the\ game\r\n\ @param\ width\ Width\ of\ the\ view\ pixels\r\n\ @param\ height\ Height\ of\ the\ view\ pixels\r\n
+comment2.params=g
+comment2.target=void\ drawActualPicture(java.awt.Graphics2D)
+comment2.text=\r\n\ \ Code\ called\ to\ draw\ the\ current\ state\ of\ the\ game\r\n\ \ \ Uses\ draw\:\ \ \ \ \ \ \ Draw\ a\ shape\r\n\ \ \ \ \ \ \ \ fill\:\ \ \ \ \ \ \ Fill\ the\ shape\r\n\ \ \ \ \ \ \ \ setPaint\:\ \ \ Colour\ used\r\n\ \ \ \ \ \ \ \ drawString\:\ Write\ string\ on\ display\r\n\ \ @param\ g\ Graphics\ context\ to\ use\r\n
+comment3.params=g\ go
+comment3.target=void\ displayGameObj(java.awt.Graphics2D,\ GameObj)
+comment4.params=aModel\ arg
+comment4.target=void\ update(java.util.Observable,\ java.lang.Object)
+comment4.text=\r\n\ Called\ indirectly\ from\ the\ model\ when\ its\ state\ has\ changed\r\n\ @param\ aModel\ Model\ to\ be\ displayed\r\n\ @param\ arg\ \ \ \ Any\ arguments\ (Not\ used)\r\n
+comment5.params=g
+comment5.target=void\ update(java.awt.Graphics)
+comment5.text=\r\n\ Called\ by\ repaint\ to\ redraw\ the\ Model\r\n\ @param\ g\ \ \ \ Graphics\ context\r\n
+comment6.params=g
+comment6.target=void\ paint(java.awt.Graphics)
+comment6.text=\r\n\ Called\ when\ window\ is\ first\ shown\ or\ damaged\r\n\ @param\ g\ \ \ \ Graphics\ context\r\n
+comment7.params=g
+comment7.target=void\ drawPicture(java.awt.Graphics2D)
+comment7.text=\r\n\ Double\ buffer\ graphics\ output\ to\ avoid\ flicker\r\n\ @param\ g\ The\ graphics\ context\r\n
+comment8.params=aPongController
+comment8.target=void\ setController(Controller)
+comment8.text=\r\n\ Need\ to\ be\ told\ where\ the\ controller\ is\r\n\ @param\ aPongController\ The\ controller\ used\r\n
+numComments=9
